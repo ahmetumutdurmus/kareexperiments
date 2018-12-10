@@ -18,6 +18,14 @@ Function description.
 
 The hyperparameters of the function are listed with a small description and perhaps the possible values of the hyperparameter. 
 
+**Experiment IDs**
+
+The experiment IDs with relative links.
+
+**Input Data**
+
+A description and link to the input data.
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
