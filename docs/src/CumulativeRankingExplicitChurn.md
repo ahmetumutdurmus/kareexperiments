@@ -21,7 +21,7 @@ o[:initialstart] = Date(2013, 1, 2)
 o[:endofperiod] = o[:initialstart]
 
 ## Input Data:
-The following [link] contains the relevant data for the experiment: The daily closing prices and price/earnings ratios of 107 stocks and some 8 financial instruments. (https://docs.google.com/spreadsheets/d/17KRBtCGKO4aQNd_eMO--WkLCO3-u_kCKedVwfr26uT0/edit?usp=sharing)
+The following [link](https://docs.google.com/spreadsheets/d/17KRBtCGKO4aQNd_eMO--WkLCO3-u_kCKedVwfr26uT0/edit?usp=sharing) contains the relevant data for the experiment: The daily closing prices and price/earnings ratios of 107 stocks and some 8 financial instruments. 
 
 ## Results: 
 
