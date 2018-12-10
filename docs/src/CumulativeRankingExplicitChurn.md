@@ -4,18 +4,22 @@ This experiment runs a [cumulative ranking explicit churn function](https://gith
 
 ## Varying Parameters:
 
-- o[:pcatype] = {:cov, :cor}
-
+```julia
+o[:pcatype] = {:cov, :cor}
     Type of similarity used during PCA.
-- o[:normtype] = {0, 1, 2} 
-Type of normalization procedure used on raw data before PCA. `0` denotes no normalization. `1` denotes subtracting the mean. `2` denotes z-score normalization. 
-- o[:lambda] = {exp(log(0.1):log(100)/50:log(10)}
-The constant before PE rankings to enforce the relative weights of PCA spread and PE rankings. Note that the constant before PCA spread rankings is 1. 
-- o[:churn] = {0.10:0.01:0.20}
-The daily churn constraint of the portfolio generating function.
+o[:normtype] = {0, 1, 2} 
+    Type of normalization procedure used on raw data before PCA. `0` denotes no normalization. 
+    `1` denotes subtracting the mean. `2` denotes z-score normalization. 
+o[:lambda] = {exp(log(0.1):log(100)/50:log(10)}
+    The constant before PE rankings to enforce the relative weights of PCA spread and PE rankings. 
+    Note that the constant before PCA spread rankings is 1. 
+o[:churn] = {0.10:0.01:0.20}
+    The daily churn constraint of the portfolio generating function.
+```
 
 ## Constant Parameters:
 
+```julia
 o[:retrospectionperiod] = Month(6) #The length of backwards return series to be used while doing PCA.
 o[:PCAdays] = 4 #{1:o[:retrospectionperiod]}
 o[:rankmode] = :Collective # {:Collective, :PEranks, :Spreadranks}
@@ -23,6 +27,7 @@ o[:addsecurities] = false #{true, false}
 o[:featurenum] = 1 #{1:NumberOfTradeables}
 o[:initialstart] = Date(2013, 1, 2)
 o[:endofperiod] = o[:initialstart]
+```
 
 ## Input Data:
 
