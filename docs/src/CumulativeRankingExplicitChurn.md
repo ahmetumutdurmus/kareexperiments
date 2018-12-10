@@ -5,6 +5,7 @@ This experiment runs a [cumulative ranking explicit churn function](https://gith
 ## Varying Parameters:
 
 - o[:pcatype] = {:cov, :cor}
+
     Type of similarity used during PCA.
 - o[:normtype] = {0, 1, 2} 
 Type of normalization procedure used on raw data before PCA. `0` denotes no normalization. `1` denotes subtracting the mean. `2` denotes z-score normalization. 
