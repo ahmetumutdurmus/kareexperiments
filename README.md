@@ -4,11 +4,19 @@ This repository holds the experiment log, a to do list, individual experiment do
 
 Each individual experiment is assigned a 7 character unique id of the format `AAA1234`. The first three characters are letters and correspond to the relevant portfolio generating function. The last 4 characters are numbers and are assigned randomly and differ for varying parameters of the portfolio generating function thus create a unique experiment. 
 
+A portfolio generating function *f* is a mapping from input data and hyperparameters to a portfolio allocation: f: 
+
 ## The Experiment Log
 
 The experiment log is the main document to navigate through the experiments conducted during this study and contains an entry for each portfolio generating function. Each entry has the following format:
 
+### Function Name (Function Code)
 
+Function description.
+
+### Parameters
+
+The hyperparameters of the function.  
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
