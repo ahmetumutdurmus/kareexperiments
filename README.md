@@ -26,6 +26,13 @@ The experiment IDs with relative links.
 
 A description and link to the input data.
 
+## The Individual Experiment Document
+
+An individual experiment is a series of portfolio generating function runs for different hyperparameters. 
+
+The individual experiment document contains the experiment description, the parameter values to be tweaked and corresponding ranges, the parameter values to be kept constant during the experiment and the relevant links to the source codes, input data and results along with their descriptions.  
+
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
