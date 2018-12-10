@@ -20,13 +20,21 @@ o[:churn] = {0.10:0.01:0.20}
 ## Constant Parameters:
 
 ```julia
-o[:retrospectionperiod] = Month(6) #The length of backwards return series to be used while doing PCA.
-o[:PCAdays] = 4 #{1:o[:retrospectionperiod]}
-o[:rankmode] = :Collective # {:Collective, :PEranks, :Spreadranks}
-o[:addsecurities] = false #{true, false}
-o[:featurenum] = 1 #{1:NumberOfTradeables}
+o[:retrospectionperiod] = Month(6) 
+    The length of retrospection period of return series to be used while doing PCA.
+o[:PCAdays] = 4 
+    The number of days to compound when obtaining the spread between PCA reconstruction and market returns.
+o[:rankmode] = :Collective 
+    The possible 
+o[:addsecurities] = false 
+    The decision whether to add the returns of the nontradable indices to the PCA analysis. If true, the 
+    nontradable indices are included in the PCA reconstruction process but are disregarded during trading.
+o[:featurenum] = 1 
+    The number of eigenvectors to be used when conducting the PCA.  
 o[:initialstart] = Date(2013, 1, 2)
+    The first date of backtesting.
 o[:endofperiod] = o[:initialstart]
+    The current day holder for portfolio generation function. 
 ```
 
 ## Input Data:
