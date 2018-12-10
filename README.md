@@ -26,11 +26,11 @@ The experiment log is the main document to navigate through the experiments cond
 >
 >A description and link to the input data.
 
-## The Individual Experiment Document
+## Individual Experiment Documents
 
 An individual experiment is a series of portfolio generating function runs for different hyperparameters. 
 
-The individual experiment document contains the experiment description, the parameter values to be tweaked and corresponding ranges, the parameter values to be kept constant during the experiment and the relevant links to the source codes, input data and results along with their descriptions. Each document has the following format:
+An individual experiment document contains the experiment description, the parameter values to be tweaked and corresponding ranges, the parameter values to be kept constant during the experiment and the relevant links to the source codes, input data and results along with their descriptions. Each document has the following format:
 
 >**Function Name (Experiment ID):**
 >
