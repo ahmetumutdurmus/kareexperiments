@@ -10,21 +10,21 @@ A portfolio generating function, *f*, is a mapping from input data and hyperpara
 
 The experiment log is the main document to navigate through the experiments conducted during this study and contains an entry for each portfolio generating function. Each entry has the following format:
 
-**Function Name (Function Code):**
-
-Function description.
-
-**Parameters:**
-
-The hyperparameters of the function are listed with a small description and perhaps the possible values of the hyperparameter. 
-
-**Experiment IDs:**
-
-The experiment IDs with relative links.
-
-**Input Data:**
-
-A description and link to the input data.
+>**Function Name (Function Code):**
+>
+>Function description.
+>
+>**Parameters:**
+>
+>The hyperparameters of the function are listed with a small description and perhaps the possible values of the hyperparameter. 
+>
+>**Experiment IDs:**
+>
+>The experiment IDs with relative links.
+>
+>**Input Data:**
+>
+>A description and link to the input data.
 
 ## The Individual Experiment Document
 
