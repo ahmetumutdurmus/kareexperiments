@@ -1,4 +1,6 @@
-# Cumulative Ranking Explicit Churn (CRE)
+# The Experiment Log
+
+## Cumulative Ranking Explicit Churn (CRE)
 
 This function takes an array of returns and an array of PE ratios and produces an array of portfolio allocations. 
 CRE respectively conducts a PCA and inverse PCA operation on the returns matrix and measures the spread 
@@ -8,7 +10,7 @@ spreads and the PE ratios and creates a statistic by adding the two rankings acc
 CRE then each day iteratively creates a portfolio allocation collecting the 20 best alternatives available according to this 
 statistic while also considering a churn constraint specified by again a parameter.
 
-## Parameters:
+### Parameters:
 
 ```julia
 o[:pcatype] = {:cov, :cor}
