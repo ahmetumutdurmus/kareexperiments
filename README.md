@@ -38,11 +38,11 @@ An individual experiment document contains the experiment description, the param
 >
 >**Varying Parameters:**
 >
->The list of hyperparameters that are tweaked during the experiment and the corresponding ranges. Possibly along with a simple >description of each hyperparameter.
+>The list of hyperparameters that are tweaked during the experiment and the corresponding ranges. Possibly along with a simple description of each hyperparameter.
 >
 >**Constant Parameters:**
 >
->The list of hyperparameters that are kept constant during the experiment and their corresponding values. Also possibly along with a >simple description of each hyperparameter.
+>The list of hyperparameters that are kept constant during the experiment and their corresponding values. Also possibly along with a simple description of each hyperparameter.
 >
 >**Code Links:**
 >
