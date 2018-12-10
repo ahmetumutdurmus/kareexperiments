@@ -63,8 +63,3 @@ The input, results and code files should generally be accessed from the experime
 ## To Do Lists
 
 Possible ideas regarding new experiments and modifications of the existing experiments may be provided at the bottom of certain docs as a to do list. Once they are conducted they will be check as done. 
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
