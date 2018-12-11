@@ -59,7 +59,7 @@ An individual experiment document contains the experiment description, the param
 
 ## Input Data, Results and Codes
 
-The input, result and code files should generally be accessed from the experiment log and individual experiment docs. Further explanation won't be provided within these folders. Use at your own risk. 
+The input, result and code files should generally be accessed from the experiment log and individual experiment docs. Further explanation won't be provided within the code files, they should generally be accessed via the hiearchical protocol described here.
 
 ## To Do Lists
 
