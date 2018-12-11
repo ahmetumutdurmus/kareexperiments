@@ -67,3 +67,4 @@ Possible ideas regarding new experiments and modifications of the existing exper
 
 - [ ] See how long it takes for the effect of churnless initialization to converge. Compare the portfolio allocations for today initialized 1 year ago vs 5 year ago.  
 - [ ] Measure the effect of PCA reconstruction by conducting CRE with no PCA reconstruction (equivalently 0 eigenvectors).
+- [ ] Checking if the strategy works on different sets of stock for different periods of time.
