@@ -64,3 +64,6 @@ The input, result and code files should generally be accessed from the experimen
 ## To Do Lists
 
 Possible ideas regarding new experiments and modifications of the existing experiments may be provided at the bottom of certain docs as a to do list. Once they are conducted they will be checked as done. 
+
+- [] See how long it takes for the effect of churnless initialization to converge. Compare the portfolio allocations for today initialized 1 year ago vs 5 year ago.  
+- [] Measure the effect of PCA reconstruction by conducting CRE with no PCA reconstruction (equivalently 0 eigenvectors).
