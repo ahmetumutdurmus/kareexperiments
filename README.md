@@ -63,4 +63,4 @@ The input, result and code files should generally be accessed from the experimen
 
 ## To Do Lists
 
-Possible ideas regarding new experiments and modifications of the existing experiments may be provided at the bottom of certain docs as a to do list. Once they are conducted they will be check as done. 
+Possible ideas regarding new experiments and modifications of the existing experiments may be provided at the bottom of certain docs as a to do list. Once they are conducted they will be checked as done. 
