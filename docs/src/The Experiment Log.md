@@ -42,5 +42,5 @@ o[:endofperiod] = o[:initialstart]
 ```
 ## Experiment IDs:
 
-*   [CRE9148](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE9148.md)
-*   [CRE2948](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE2948.md)
+*   [CRE9148](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE9148.md)   [![](https://img.shields.io/badge/Date%20of%20Experiment-07%2F12%2F2018-blue.svg "Date of Experiment")](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE9148.md)
+*   [CRE2948](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE2948.md)   [![](https://img.shields.io/badge/Date%20of%20Experiment-10%2F12%2F2018-blue.svg "Date of Experiment")](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE2948.md)
