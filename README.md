@@ -26,7 +26,7 @@ The experiment log is the main document to navigate through the experiments cond
 >
 >A description and link to the input data.
 
-You can access the experiment log from this [link](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/The%20Experiment%20Log.md).
+You can access the experiment log from this [link.](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/The%20Experiment%20Log.md)
 ## Individual Experiment Documents
 
 An individual experiment is a series of portfolio generating function runs for different hyperparameters. 
