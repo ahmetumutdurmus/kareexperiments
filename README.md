@@ -2,7 +2,7 @@
 
 This repository holds the experiment log, a to do list, individual experiment documents, relevant input data, results and experiment codes for reproducibility purposes.
 
-Each individual experiment is assigned a 7 character unique id of the format `AAA1234`. The first three characters are letters and correspond to the relevant portfolio generating function. The last 4 characters are numbers and are assigned randomly and differ for varying parameters of the portfolio generating function thus create a unique experiment. 
+Each individual experiment is assigned a 7 character unique id of the format `AAA1234`. The first three characters are letters and correspond to the relevant portfolio generating function. The last 4 characters are numbers and are assigned randomly and differ for varying parameters of the portfolio generating function, thus creating a unique experiment. 
 
 A portfolio generating function, *f*, is a mapping from input data and hyperparameters to a portfolio allocation. 
 
