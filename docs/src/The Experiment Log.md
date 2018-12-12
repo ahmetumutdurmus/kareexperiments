@@ -44,3 +44,5 @@ o[:endofperiod] = o[:initialstart]
 
 *   [CRE9148](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE9148.md)  
 *   [CRE2948](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE2948.md)   
+*   [CRE6168](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE6168.md)   
+
