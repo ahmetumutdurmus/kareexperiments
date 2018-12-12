@@ -69,4 +69,5 @@ Below is the main to do list:
 
 - [x] See how long it takes for the effect of churnless initialization to converge for CRE. Compare the portfolio allocations for today initialized 1 year ago vs 5 year ago. // It takes about 15 work days for the initialization effect to lose its effect.
 - [ ] Measure the effect of PCA reconstruction by conducting CRE with no PCA reconstruction (equivalently 0 eigenvectors).
+- [ ] See whether enhancing the PCA effect introduces any improvement. Divide both real return and PCA reconstruction vectors by their respective norms.
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
