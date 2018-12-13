@@ -74,5 +74,5 @@ Below is the main to do list:
 - [ ] Do a backtesting grid search for the period out of the sample. See if the shape of the return hyperplane is preserved. If so, this suggests that the best hyperparameter structure is not arbitrary, but preserves some actual info about the data generating process.
 - [ ] Adding some nonlinearity to decision statistic construction process. Spreadrank^a + lambda * PErank^b for example or log(Spreadrank).
 - [ ] Adding some measure of momentum in the process. Tweaking its hyperparameters and such. 
-- [ ] Implement paper trading for best strategy so far. 
+- [x] Implement paper trading for best strategy so far. 
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
