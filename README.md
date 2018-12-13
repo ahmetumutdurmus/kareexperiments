@@ -78,3 +78,4 @@ Below is the main to do list:
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
 - [ ] An all out experiment summary doc.
 - [ ] Changing the experiment naming convention to `AAADDMMYY`. 
+- [ ] Initialize CRE allocations from zero and 1 year ago.
