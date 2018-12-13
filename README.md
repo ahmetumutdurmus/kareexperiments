@@ -76,3 +76,5 @@ Below is the main to do list:
 - [ ] Adding some measure of momentum in the process. Tweaking its hyperparameters and such. 
 - [x] Implement paper trading for best strategy so far. 
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
+- [ ] An all out experiment summary doc.
+- [ ] Changing the experiment naming convention to `AAADDMMYY`. 
