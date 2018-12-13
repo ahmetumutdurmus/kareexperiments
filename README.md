@@ -71,5 +71,7 @@ Below is the main to do list:
 - [x] Measure the effect of PCA reconstruction by conducting CRE with no PCA reconstruction (equivalently 0 eigenvectors). // PCA does seem to have forecasting powers as the experiment suggests.
 - [x] See whether enhancing the PCA effect introduces any improvement. Divide both real return and PCA reconstruction vectors by their respective norms. // Not so much, see the relevant experiment for details: [CRE7743](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE7743.md)
 - [x] Check whether increasing the number eigenvectors improves the results. // Does indeed so given that z-score transformation is performed on the data first. See: [CRE7743](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE7743.md)
+- [ ] Adding some nonlinearity to decision statistic construction process. Spreadrank^a + lambda * PErank^b for example or log(Spreadrank).
+- [ ] Adding some measure of momentum in the process. Tweaking its hyperparameters and such. 
 - [ ] Implement paper trading for best strategy so far. 
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
