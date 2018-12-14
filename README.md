@@ -79,3 +79,4 @@ Below is the main to do list:
 - [ ] An all out experiment summary doc.
 - [ ] Changing the experiment naming convention to `AAADDMMYY`. 
 - [ ] Initialize CRE allocations from zero and 1 year ago.
+- [ ] Write the generic dailyCREfunction.
