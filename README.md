@@ -71,12 +71,12 @@ Below is the main to do list:
 - [x] Measure the effect of PCA reconstruction by conducting CRE with no PCA reconstruction (equivalently 0 eigenvectors). // PCA does seem to have forecasting powers as the experiment suggests.
 - [x] See whether enhancing the PCA effect introduces any improvement. Divide both real return and PCA reconstruction vectors by their respective norms. // Not so much, see the relevant experiment for details: [CRE7743](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE7743.md)
 - [x] Check whether increasing the number eigenvectors improves the results. // Does indeed so given that z-score transformation is performed on the data first. See: [CRE7743](https://github.com/ahmetumutdurmus/kareexperiments/blob/master/docs/src/CRE7743.md)
-- [ ] Do a backtesting grid search for the period out of the sample. See if the shape of the return hyperplane is preserved. If so, this suggests that the best hyperparameter structure is not arbitrary, but preserves some actual info about the data generating process.
+- [x] Do a backtesting grid search for the period out of the sample. See if the shape of the return hyperplane is preserved. If so, this suggests that the best hyperparameter structure is not arbitrary, but preserves some actual info about the data generating process.
 - [ ] Adding some nonlinearity to decision statistic construction process. Spreadrank^a + lambda * PErank^b for example or log(Spreadrank).
 - [ ] Adding some measure of momentum in the process. Tweaking its hyperparameters and such. 
 - [x] Implement paper trading for best strategy so far. 
 - [ ] Checking if the strategy works on different sets of stocks for different periods of time.
 - [ ] An all out experiment summary doc.
 - [ ] Changing the experiment naming convention to `AAADDMMYY`. 
-- [ ] Initialize CRE allocations from zero and 1 year ago.
-- [ ] Write the generic dailyCREfunction.
+- [x] Initialize CRE allocations from zero and 1 year ago.
+- [x] Write the generic dailyCREfunction.
